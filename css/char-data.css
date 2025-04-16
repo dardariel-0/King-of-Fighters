@@ -19,7 +19,8 @@
 }
 
 .char-data p {
-  font-size: 0.875rem;
+  font-size: 0.95rem;
+  font-family: "DM Sans", sans-serif;
 }
 
 .char-animation {
@@ -129,13 +130,13 @@
   }
 
   .char-data p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 850px) {
   .char-data p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     max-width: 36ch;
   }
 }
@@ -159,7 +160,7 @@
   }
 
   .char-data p {
-    font-size: 0.875rem;
+    font-size: 0.95rem;
     max-width: max-content;
   }
 
