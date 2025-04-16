@@ -1,0 +1,82 @@
+/* FOOTER */
+
+.footer-bg {
+  background-color: #001560;
+  place-items: center;
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .footer-bg {
+    display: grid;
+  }
+}
+
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content auto max-content;
+  gap: 12px 60px;
+  height: 320px;
+  align-items: start;
+  padding: 40px 20px 20px 0px;
+}
+
+.footer .logo {
+  grid-column: 1/-1;
+  justify-self: center;
+  margin-bottom: 18px;
+}
+
+.footer .copy {
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.footer .idioma {
+  display: flex;
+  align-items: center;
+  align-self: self-start;
+  margin-top: 24px;
+}
+
+.footer .menu-link {
+  margin-left: 0;
+}
+
+.footer .menu-link li a::after {
+  display: none;
+}
+
+.menu-link {
+  justify-self: center;
+  margin-left: -20px;
+}
+
+.footer .idioma img {
+  max-width: 16px;
+}
+
+.footer .idioma span,
+.footer .idioma label {
+  font-size: 0.6rem;
+}
+
+.footer .menu-link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.footer .menu-link li {
+  font-size: 0.6rem;
+}
+@media (max-width: 600px) {
+  .footer .idioma {
+    margin-top: 0px;
+  }
+}
